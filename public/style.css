@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h1,h2,h3,h4,h5,p{
+    color: white;
+    font-family: roboto;
+}
+.about h1{
+    font-size: 100px;
+    margin-bottom: 5px;
+}
+span{
+    color: #62BB51;
+}
+.about h3{
+    color: #62BB51;
+}
+button{
+    border: none;
+    background-color: #62BB51;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+}
+.container-hero{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: black;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+.pic img{
+    height: 500px;
+}
+#education{
+    height: 50vh;
+    background-color: black;
+    margin-top: 0px;
+}
+.container-edu h2{
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    font-size: 40px;
+}
+.edu-cate{
+    display: flex;
+    padding: 10px 50px;
+    gap: 10px;
+    margin-top: 20px;
+}
+.cate{
+    flex: 1;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #62BB51;
+
+}
+#services{
+    background-color: black;
+    margin-top: 0px;
+    padding: 0px;
+}
+.container-services h2{
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    font-size: 40px;
+}
+.services-off{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 10px;
+    padding: 50px 50px;
+    margin-top: 20px;
+}
+
+.card-serv{
+    background-color: #62BB51;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+}
+.card-serv > *{
+    color: black;
+}
+#contact{
+    background-color: black;
+    margin-top: 0px;
+    margin-top: 0px;
+}
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-container h2{
+    text-align: center;
+    padding: px;
+    margin: 0;
+    font-size: 40px;
+}
+.conta-card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    gap: 10px;
+    width: 600px;
+}
+.card{
+    border: 2px solid #62BB51;
+    border-radius: 10px;
+}
+@media (max-width:480px){
+    .container-hero{
+        flex-direction: column-reverse;
+        padding: 0px;
+        height: 160vh;
+        width: 100%;
+
+    }
+    .about h1{
+        font-size: 60px;
+        margin-bottom: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    #hero > div > div.about{
+        text-align: center;
+    }
+
+    .pic img{
+        height: 350px;
+    }
+    #hero > div > div.about{
+        padding: 0px 10px;
+    }
+    #hero > div > div.about > p{
+        font-size: normal;
+    }
+    #services > div > div{
+        text-align: center;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+        padding: 50px 50px;
+        margin-top: 20px;
+    }
+
+
+
+}
+
